@@ -18,6 +18,7 @@ function App() {
      <About/>
      <HowItWorks/>
      <Form/>
+     <hr />
      <Footer/>
 
     </div>

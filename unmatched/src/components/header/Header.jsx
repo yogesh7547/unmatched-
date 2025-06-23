@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../assets/header/logo.svg?react'
 const Header = () => {
     return (
-    <div className='h-[90px] w-[98%] border-2 bg-pink drop-shadow-sm flex justify-between items-center p-2 mx-auto '>
+    <div className='h-[90px] w-[98%] border-2 bg-pink drop-shadow-md flex justify-between items-center p-2 mx-auto '>
         <div className='flex gap-4'>
            <Logo className="w-[40px] h-[40px]"/>
           <div className='text-[20px] font-medium'>Let's Talk</div>
