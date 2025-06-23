@@ -1,5 +1,6 @@
 import About from "./components/about/About"
 import Button from "./components/Button/Button"
+import Form from "./components/form/Form"
 import Header from "./components/header/Header"
 import Hero from "./components/hero/Hero"
 import HowItWorks from "./components/HowItWorks/HowItWorks"
@@ -15,6 +16,7 @@ function App() {
      <Hero/>
      <About/>
      <HowItWorks/>
+     <Form/>
 
     </div>
   )
