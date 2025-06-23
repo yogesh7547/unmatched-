@@ -6,7 +6,7 @@ import Padlock from '../assets/cards/padlock_739405 1.svg?react'
 
 const About = () => {
     return (
-        <div className='w-[98%]  mx-auto flex flex-col px-2 '>
+        <div className='w-[98%]  mx-auto flex flex-col px-2 mb-5 '>
 
             <h1 className='font-extrabold text-[35px] leading-[130%] tracking-[-1%] mb-[5%]'>
                 Why Unmatched? <br /> Because Swiping Isn't Connecting!
