@@ -3,7 +3,7 @@ import Button from '../Button/Button'
 
 const Form = () => {
     return (
-        <div className='w-[98%] h-[600px] mx-auto flex flex-col px-1  mb-25'>
+        <div className='w-[98%] h-[600px] mx-auto flex flex-col px-1  mb-30'>
             <h1 className='font-extrabold text-[40px] leading-[130%] tracking-[-1%] mb-[5%]'>
                 Join Unmatched Waitlist
             </h1>
