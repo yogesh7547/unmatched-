@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
 
       </div>
-      <div className=' h-[50%] w-[100%] mx-auto hidden'>
+      <div className=' hidden '>
         <div className='relative'>
           <Ellipse className=' w-65 absolute left-[7%] ' />
           <HeroImg className=' h-50 w-50  absolute top-50 left-12 ' />
