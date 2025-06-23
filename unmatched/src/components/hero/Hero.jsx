@@ -14,10 +14,10 @@ const Hero = () => {
   return (
     <div className='w-[98%]  mx-auto flex flex-col px-2'>
       <div className='h-[50%] w-[100%]  flex flex-col pt-[3%]'>
-        <h1 className='font-bold text-[40px] leading-[130%] tracking-[-1%] mb-[5%]'>
+        <h1 className='font-extrabold text-[40px] leading-[130%] tracking-[-1%] mb-[5%]'>
           Tired of Swiping? <br /> Try Unmatched
         </h1>
-        <p className='w-[100%] leading-[120%] text-[20px] mb-4 '>
+        <p className='w-[100%] leading-[120%] text-[18px] mb-4 '>
           We ditched the swipe for real conversations and real <br /> chemistry. our innovative dating app is coming soon! Be <br /> among the first to experience meaningful connection <br /> based on compatibility .
         </p>
 
