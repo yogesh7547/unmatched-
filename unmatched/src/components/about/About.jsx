@@ -2,6 +2,7 @@ import React from 'react'
 import Joystick from '../assets/cards/Joystick.svg?react'
 import MagicWand from '../assets/cards/MagicWand.svg?react'
 import Padlock from '../assets/cards/padlock_739405 1.svg?react'
+import AboutCard from '../aboutCard/AboutCard'
 
 
 const About = () => {
@@ -15,21 +16,26 @@ const About = () => {
                 We believe real connection doesn't start with a swipe. That's why Unmatched focuses on shared vibes, deeper chats, and meaningful first impressions—beyond the screen.
             </p>
             <div className='flex flex-col justify-evenly gap-5 md:flex md:justify-between md:flex-row'>
-                <div className='w-[100%] md:min-h-[250px] h-[200px] bg-yellow drop-shadow-md flex flex-col items-center text-center py-3 px-2 md:max-h-[300px]'>
-                    <Joystick />
-                    <h2 className='text-2xl font-bold'>Games & Quizzes</h2>
-                    <p className=' md:font-medium'>From fun quizzes to quirky questions and swipeable games, our smart suggestions keep the convo flowing. No small talk—just good talk.</p>
-                </div>
-                <div className='w-[100%] md:min-h-[250px] h-[200px] bg-blue drop-shadow-md flex flex-col items-center text-center py-3 px-2 md:max-h-[300px]'>
-                    <MagicWand />
-                    <h2 className='text-2xl font-bold'>AI Meme Generator</h2>
-                    <p className=' md:font-medium'>Our AI meme generator creates hilarious, shareable memes based on your interests and chat vibes—because bonding starts with laughter.</p>
-                </div>
-                <div className='w-[100%] md:min-h-[250px] h-[200px] bg-violet drop-shadow-md flex flex-col items-center text-center py-3 px-2 md:max-h-[300px]'>
-                    <Padlock />
-                    <h2 className='text-2xl font-bold'>Lock the Vibe</h2>
-                    <p className=' md:font-medium'>When the connection hits different, hit Love Lock. Freeze the noise, focus on just you two, and see where it goes—no distractions, just vibes.</p>
-                </div>
+                <AboutCard
+                title={'Games & Quizzes'}
+                content={'From fun quizzes to quirky questions and swipeable games, our smart suggestions keep the convo flowing. No small talk—just good talk.'}
+                bgcolor={'yellow'}
+                icon={<Joystick/>}
+                />
+                <AboutCard
+                title={'AI Meme Generator'}
+                content={'From fun quizzes to quirky questions and swipeable games, our smart suggestions keep the convo flowing. No small talk—just good talk.'}
+                bgcolor={'blue'}
+                icon={<MagicWand />}
+                />
+                <AboutCard
+                title={'Lock the Vibe'}
+                content={'When the connection hits different, hit Love Lock. Freeze the noise, focus on just you two, and see where it goes—no distractions, just vibes.'}
+                bgcolor={'violet'}
+                icon={<Padlock />}
+                />
+               
+                
 
             </div>
 
