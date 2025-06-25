@@ -20,9 +20,9 @@ const Header = () => {
                 {/* Dropdown - toggles on click */}
                 {isOpen && (
                     <div className='absolute right-0 top-10 flex flex-col bg-white shadow-md rounded-md p-2 w-[160px] z-50'>
-                        <a href="#" className='text-[16px] py-2 hover:bg-pink'>How it Works</a>
-                        <a href="#" className='text-[16px] py-2 hover:bg-pink'>Contact</a>
-                        <a href="#" className='text-[16px] py-2 hover:bg-pink'>Join Waitlist</a>
+                        <a href="#about" className='text-[16px] py-2 hover:bg-pink'>About</a>
+                        <a href="#Howitworks" className='text-[16px] py-2 hover:bg-pink'>How it Works</a>
+                        <a href="#form" className='text-[16px] py-2 hover:bg-pink'>Join Waitlist</a>
                     </div>
                 )}
             </div>

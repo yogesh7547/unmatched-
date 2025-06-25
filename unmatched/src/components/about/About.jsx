@@ -7,7 +7,7 @@ import AboutCard from '../aboutCard/AboutCard'
 
 const About = () => {
     return (
-        <div className='w-[98%] md:w-[90%]  mx-auto flex flex-col px-2 mb-5 md:mb-40 '>
+        <div id='about' className='w-[98%] md:w-[90%]  mx-auto flex flex-col px-2 mb-5 md:mb-40 '>
 
             <h1 className='font-extrabold text-[35px] leading-[130%] tracking-[-1%] mb-[5%] md:text-center md:text-[50px] md:mb-[3%]'>
                 Why Unmatched? <br /> Because Swiping Isn't Connecting!

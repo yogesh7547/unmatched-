@@ -12,7 +12,7 @@ import Line from '../assets/hero/Line.svg?react'
 
 const Hero = () => {
   return (
-    <div className='w-[98%] md:w-[90%] mx-auto flex flex-col px-2 md:mb-30'>
+    <div className='w-[98%] md:w-[90%] mx-auto flex flex-col px-2 md:mb-3 0'>
       <div className='h-[50%] w-[100%]  flex flex-col pt-[3%]'>
         <h1 className='font-extrabold text-[40px] leading-[130%] tracking-[-1%] mb-[5%] md:text-7xl'>
           Tired of Swiping? <br /> Try Unmatched

@@ -10,7 +10,7 @@ import NumberLine from '../numberline/NumberLine'
 
 const HowItWorks = () => {
   return (
-    <div className='w-[98%] md:w-[90%] md:h-[1100px] mx-auto flex flex-col px-2 mb-15 md:mb-[40%]'>
+    <div id='Howitworks' className='w-[98%] md:w-[90%] md:h-[1100px] mx-auto flex flex-col px-2 mb-15 md:mb-[40%]'>
         <h1 className='font-extrabold text-[40px] leading-[130%] tracking-[-1%] mb-[5%] md:text-[50px] md:text-center md:mb-[2%]'>How Unmatched Works?</h1>
         <p className='w-[100%] leading-[120%] text-[18px] mb-4 md:font-medium md:text-center'>A new kind of dating experience—where real connections take their time.</p>
         <div className='flex flex-col gap-10 md:relative'>
