@@ -28,9 +28,9 @@ const Header = () => {
             </div>
 
             <div className='hidden md:flex justify-between gap-10 px-10'>
-                <a href="#" className='text-[16px] py-2 '>How it Works</a>
-                <a href="#" className='text-[16px] py-2 '>Contact</a>
-                <a href="#" className='text-[16px] py-2 '>Join Waitlist</a>
+                <a href="#about" className='text-[16px] py-2 '>How it Works</a>
+                <a href="#Howitworks" className='text-[16px] py-2 '>Contact</a>
+                <a href="#form" className='text-[16px] py-2 '>Join Waitlist</a>
             </div>
 
 
