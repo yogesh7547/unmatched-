@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../assets/header/logo.svg?react'
-import Fblogo from '../assets/footer/fblogo.svg?react'
+import Fblogo from '../assets/footer/fbLogo.svg?react'
 import Instalogo from '../assets/footer/instaLogo.svg?react'
 import Xlogo from '../assets/footer/XLogo.svg?react'
 const Footer = () => {
