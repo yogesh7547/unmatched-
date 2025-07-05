@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
 
       </div>
-      <div className=' hidden md:block'>
+      {/* <div className=' hidden md:block'>
         <div className='relative'>
           <Ellipse className=' w-65 absolute left-[7%] md:top-[-500px] md:left-[750px] md:w-95' />
           <HeroImg className=' h-50 w-50  absolute top-50 left-12  md:top-[-300px] md:left-[800px] md:w-70 md:h-70' />
@@ -44,7 +44,7 @@ const Hero = () => {
 
 
         </div>
-      </div>
+      </div> */}
       
 
 

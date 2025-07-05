@@ -8,20 +8,26 @@ import Five from '../assets/userflow/five.svg?react'
 
 const NumberLine = () => {
     return (
-        <div className=' hidden md:flex md:flex-col md:items-center md:mt-[100px]'>
+        <div className='hidden md:flex md:flex-col md:items-center  md:h-full md:w-[50px] md:py-10'>
+            <Line />
             <Line />
             <One />
             <Line />
+            <Line />
+            <Line />
             <Two />
+            <Line />
+            <Line />
             <Line />
             <Three />
             <Line />
+            <Line />
+            <Line />
             <Four />
             <Line />
+            <Line />
+            <Line />
             <Five />
-
-
-
         </div>
     )
 }

@@ -31,7 +31,7 @@ const About = () => {
                 <AboutCard
                 title={'Lock the Vibe'}
                 content={'When the connection hits different, hit Love Lock. Freeze the noise, focus on just you two, and see where it goes—no distractions, just vibes.'}
-                bgcolor={'violet'}
+                bgcolor={'yellow'}
                 icon={<Padlock />}
                 />
                
