@@ -19,19 +19,19 @@ const About = () => {
                 <AboutCard
                 title={'Games & Quizzes'}
                 content={'From fun quizzes to quirky questions and swipeable games, our smart suggestions keep the convo flowing. No small talk—just good talk.'}
-                bgcolor={'bg-yellow'}
+                bgcolor={'yellow'}
                 icon={<Joystick/>}
                 />
                 <AboutCard
                 title={'AI Meme Generator'}
                 content={'From fun quizzes to quirky questions and swipeable games, our smart suggestions keep the convo flowing. No small talk—just good talk.'}
-                bgcolor={'bg-blue'}
+                bgcolor={'blue'}
                 icon={<MagicWand />}
                 />
                 <AboutCard
                 title={'Lock the Vibe'}
                 content={'When the connection hits different, hit Love Lock. Freeze the noise, focus on just you two, and see where it goes—no distractions, just vibes.'}
-                bgcolor={'yellow'}
+                bgcolor={'violet'}
                 icon={<Padlock />}
                 />
                
