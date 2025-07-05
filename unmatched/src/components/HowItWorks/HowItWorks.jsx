@@ -27,9 +27,13 @@ const HowItWorks = () => {
        <div className="col-span-1 row-span-1 flex justify-center items-center">
          <img src={conversation} alt="Conversation" className="w-[200px] h-[200px] object-contain" />
        </div>
-       <div className="col-span-1 row-span-4 flex justify-center items-center">
-       
-       </div>
+               <div className="col-span-1 row-span-1 flex flex-col justify-center items-center">
+        <Line/>
+        <Line/>
+        <One/>
+        <Line/>
+        <Line/>
+        </div>
        <div className="col-span-1 row-span-1 flex justify-center items-center">
        <AboutCard
        title="Start with Memes"
@@ -44,12 +48,26 @@ const HowItWorks = () => {
        bgcolor="blue"
        />
        </div>
+               <div className="col-span-1 row-span-1 flex flex-col justify-center items-center">
+        <Line/>
+        <Line/>
+        <Two/>
+        <Line/>
+        <Line/>
+        </div>
        <div className="col-span-1 row-span-1 flex justify-center items-center">
        <img src={chats} alt="Conversation" className="w-[200px] h-[200px] object-contain" />
        </div>
        <div className="col-span-1 row-span-1 flex justify-center items-center">
          <img src={call} alt="Conversation" className="w-[200px] h-[200px] object-contain" />
        </div>
+               <div className="col-span-1 row-span-1 flex flex-col justify-center items-center">
+        <Line/>
+        <Line/>
+        <Three/>
+        <Line/>
+        <Line/>
+        </div>
        <div className="col-span-1 row-span-1 flex justify-center items-center ">
         <AboutCard
         title="Say It Out Loud"
@@ -66,12 +84,23 @@ const HowItWorks = () => {
         bgcolor="blue"
         />
        </div>
+               <div className="col-span-1 row-span-1 flex flex-col justify-center items-center">
+        
+        <Line/>
+        <Line/>
+        <Four/>
+        <Line/>
+        <Line/>
+        
+        
+        </div>
        
        <div className="col-span-1 row-span-1 flex justify-center items-center">
         <img src={Ai} alt="ai" className="w-[200px] h-[200px] object-contain" />
        </div>
        <div className="col-span-1 row-span-1 flex justify-center items-center"></div>
        <div className="col-span-1 row-span-1 flex flex-col gap-10 justify-center items-center">
+        <Five/>
         <img src={loveLock} alt="loveLock" className="w-[200px] h-[200px] object-contain" />
         <AboutCard
         title="Unlock Love Lock"
