@@ -5,7 +5,7 @@ const Button = () => {
     <div>
         <a href="#form">
           <button className="w-[280px] h-[55px]   border border-black drop-shadow-sm bg-buttonPink">
-            Join Waitlist
+            Join the Revolution
         </button>
         </a>
     </div>

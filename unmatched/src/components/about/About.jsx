@@ -32,32 +32,32 @@ const About = () => {
     return (
         <div id='about' className='w-[98%] md:w-[90%]  mx-auto flex flex-col px-2 mb-5 md:mb-40 '>
             <h1 ref={titleRef} className='font-extrabold text-[35px] leading-[130%] tracking-[-1%] mb-[5%] md:text-center md:text-[50px] md:mb-[3%]'>
-                Why Unmatched? <br /> Because Swiping Isn't Connecting!
+                The Swipe Trap Every Indian is Stuck In
             </h1>
             <p ref={descriptionRef} className='w-[100%] leading-[120%] text-[18px] mb-10 font-med md:text-center md:w-[90%] md:pl-[10%] md:text-[25px] md:mb-[5%] '>
-                We believe real connection doesn't start with a swipe. That's why Unmatched focuses on shared vibes, deeper chats, and meaningful first impressions—beyond the screen.
+                Meet Arjun. MBA from IIM, works at a unicorn startup, can negotiate million-dollar deals... but can't get past 'Hey, what's up?' on dating apps. Sound familiar? He's not alone.
             </p>
             <div ref={cardsRef} className='flex flex-col justify-evenly gap-5 md:flex md:justify-between md:flex-row'>
                 <div className='about-card'>
                     <AboutCard
-                    title={'Games & Quizzes'}
-                    content={'From fun quizzes to quirky questions and swipeable games, our smart suggestions keep the convo flowing. No small talk—just good talk.'}
+                    title={' Verified Humans Only'}
+                    content={'No catfish, no bots, no commitment-phobes. Every profile is real, verified, and ready to meet.'}
                     bgcolor={'yellow'}
                     icon={<Joystick/>}
                     />
                 </div>
                 <div className='about-card'>
                     <AboutCard
-                    title={'AI Meme Generator'}
-                    content={'From fun quizzes to quirky questions and swipeable games, our smart suggestions keep the convo flowing. No small talk—just good talk.'}
+                    title={' Real Dates in Real Time'}
+                    content={'Chai this week, not chat next month. We get you face-to-face within days, not months.'}
                     bgcolor={'blue'}
                     icon={<MagicWand />}
                     />
                 </div>
                 <div className='about-card'>
                     <AboutCard
-                    title={'Lock the Vibe'}
-                    content={'When the connection hits different, hit Love Lock. Freeze the noise, focus on just you two, and see where it goes—no distractions, just vibes.'}
+                    title={' Your Comfort, Your Pace'}
+                    content={'Introvert-friendly, extrovert-approved. We match your energy and comfort level.'}
                     bgcolor={'violet'}
                     icon={<Padlock />}
                     />

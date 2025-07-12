@@ -54,7 +54,7 @@ const HowItWorks = () => {
         How It Works
       </h1>
       <p ref={descriptionRef} className='w-[100%] leading-[120%] text-[18px] mb-10 font-med md:text-center md:w-[90%] md:pl-[10%] md:text-[25px] md:mb-[5%] '>
-        A new kind of dating experience—where real connections take their time.
+        Ready to join the rebellion? Here's how it works:
       </p>
       <div ref={desktopGridRef} className="hidden md:grid md:grid-cols-3 md:grid-rows-5 md:w-full ">
         <div className="col-span-1 row-span-1 flex justify-end items-center grid-item">
@@ -69,15 +69,15 @@ const HowItWorks = () => {
         </div>
         <div className="col-span-1 row-span-1 flex justify-center items-center grid-item">
           <AboutCard
-            title="Start with Memes"
-            content="You begin by chatting through AI-generated memes based on shared interests. Break the ice with humor and let the vibe build naturally."
+            title="Tell Us About Yourself"
+            content="Real talk, not bio fluff. We want to know the real you."
             bgcolor="yellow"
           />
         </div>
         <div className="col-span-1 row-span-1 flex justify-center items-center grid-item">
           <AboutCard
-            title="Unlock Real Chat"
-            content="Once both users engage consistently, you unlock Level 2—text chat. It's paced to encourage intention, not just quick replies."
+            title="We Verify You're Human"
+            content="And relationship-ready. Our screening process ensures quality connections."
             bgcolor="blue"
           />
         </div>
@@ -103,16 +103,16 @@ const HowItWorks = () => {
         </div>
         <div className="col-span-1 row-span-1 flex justify-center items-center grid-item">
           <AboutCard
-            title="Say It Out Loud"
-            content="Ready to hear each other? Level 3 unlocks voice calls—bringing tone, emotion, and trust into the connection.."
+            title="Join Our Exclusive Community"
+            content="Welcome to the rebellion. You're now part of India's most exclusive dating community."
             bgcolor="violet"
           />
         </div>
 
         <div className="col-span-1 row-span-1 flex justify-center items-center grid-item">
           <AboutCard
-            title="AI-Powered Prompts & Games"
-            content="Stuck in silence? Use our AI to suggest quizzes, games, or convo prompts that spark curiosity and emotional intimacy."
+            title="Real Dates in Your City"
+            content="Mumbai, Delhi, Bangalore. We set you up with verified people in premium venues."
             bgcolor="pink"
           />
         </div>
@@ -132,8 +132,8 @@ const HowItWorks = () => {
           <Five />
           <img src={loveLock} alt="loveLock" className="w-[200px] h-[200px] object-contain" />
           <AboutCard
-            title="Unlock Love Lock"
-            content="When you're ready to take things offline, you unlock Level 3—the Love Lock. It's a commitment to real conversations and shared experiences."
+            title="No More Endless Swiping"
+            content="Skip the chat fatigue. Meet someone real over cutting chai instead."
             bgcolor="green"
           />
         </div>
@@ -153,8 +153,8 @@ const HowItWorks = () => {
         <div className='mobile-card'>
           <FeatureCard
             image={conversation}
-            title="Start with Memes"
-            description="You begin by chatting through AI-generated memes based on shared interests. Break the ice with humor and let the vibe build naturally."
+            title="Tell Us About Yourself"
+            description="Real talk, not bio fluff. We want to know the real you."
             top='50px'
             left='100px'
           />
@@ -163,8 +163,8 @@ const HowItWorks = () => {
         <div className='mobile-card'>
           <FeatureCard
             image={chats}
-            title="Unlock Real Chat"
-            description="Once both users engage consistently, you unlock Level 2—text chat. It's paced to encourage intention, not just quick replies."
+            title="We Verify You're Human"
+            description="And relationship-ready. Our screening process ensures quality connections."
             bgColor='bg-blue'
             top='300px'
             left='800px'
@@ -174,8 +174,8 @@ const HowItWorks = () => {
         <div className='mobile-card'>
           <FeatureCard
             image={call}
-            title="Say It Out Loud"
-            description="Ready to hear each other? Level 3 unlocks voice calls—bringing tone, emotion, and trust into the connection."
+            title="Join Our Exclusive Community"
+            description="Welcome to the rebellion. You're now part of India's most exclusive dating community."
             bgColor='bg-violet'
             top='500px'
             left='100px'
@@ -185,8 +185,8 @@ const HowItWorks = () => {
         <div className='mobile-card'>
           <FeatureCard
             image={Ai}
-            title="AI-Powered Prompts & Games"
-            description="Stuck in silence? Use our AI to suggest quizzes, games, or convo prompts that spark curiosity and emotional intimacy."
+            title="Real Dates in Your City"
+            description="Mumbai, Delhi, Bangalore. We set you up with verified people in premium venues."
             bgColor='bg-pink'
             top='700px'
             left='800px'
@@ -196,8 +196,8 @@ const HowItWorks = () => {
         <div className='mobile-card'>
           <FeatureCard
             image={loveLock}
-            title="Activate Love Lock"
-            description="Mutually pause new matches to explore one connection without distractions. You're not matched—you're unmatched."
+            title="No More Endless Swiping"
+            description="Skip the chat fatigue. Meet someone real over cutting chai instead."
             bgColor='bg-green'
             top='1150px'
             left='480px'
