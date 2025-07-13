@@ -90,7 +90,7 @@ const Header = () => {
         <div ref={headerRef} className='h-[90px] w-[98%] md:w-[90%] border-2 bg-pink drop-shadow-md flex justify-between items-center p-2 mx-auto relative z-50'>
             <div className='flex gap-4'>
                 <Logo ref={logoRef} className="w-[40px] h-[40px]"  />
-                <div className='text-[20px] font-medium'>Let's Talk</div>
+                <div className='text-[20px] font-medium'>Unmatched</div>
             </div>
 
             <div className='relative' ref={dropdownRef}>

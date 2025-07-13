@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='md:grid md:grid-rows-2 md:grid-cols-3  '>
             <div className='flex gap-3 justify-center mb-4 md:self-center'>
                        <Logo className="w-[40px] h-[40px] md:w-[60px] md:h-[60px]"/>
-                      <div className='text-[20px] font-extrabold md:text-[30px]'>Let's Talk</div>
+                      <div className='text-[20px] font-extrabold md:text-[30px]'>Unmatched</div>
             </div>
            <div className='flex flex-col items-center mb-15 md:flex md:flex-row  md:gap-20 md:text-2xl md:col-span-2 md:col-start-2 md:col-end-4 md:row-start-1 md:row-end-2 md:justify-center md:items-start md:pt-5 md:mb-0'>
              <a href="#">How it works</a>
